@@ -1,29 +1,29 @@
-/* xs */
-@media (min-width: 475px) {
-
+/* xxs */
+@media (min-width: 200px) {
+  .desktop-only {
+    display: none;
+  }
 }
+
+/* xs */
+@media (min-width: 425px) {}
 
 /* sm */
 @media (min-width: 640px) {
+  .desktop-only {
+    display: block;
+  }
 }
 
 /* md */
-@media (min-width: 768px) {
-
-}
+@media (min-width: 768px) {}
 
 /* lg */
 @media (min-width: 1024px),
-(orientation: landscape) {
-
-}
+(orientation: landscape) {}
 
 /* xl */
-@media (min-width: 1280px) {
-
-}
+@media (min-width: 1280px) {}
 
 /* 2xl */
-@media (min-width: 1536px) {
-
-}
+@media (min-width: 1536px) {}
