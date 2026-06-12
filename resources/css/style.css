@@ -4,9 +4,16 @@ header {
   justify-content: flex-end;
 }
 
+nav {
+  padding: .05rem .5rem;
+}
+
 nav ul {
   display: flex;
-  padding: .25rem;
+}
+
+nav li:not(:first-of-type) {
+  margin-left: 1rem;
 }
 
 nav li {
