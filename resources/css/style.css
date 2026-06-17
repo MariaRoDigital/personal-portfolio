@@ -1,7 +1,18 @@
+:root {
+  --dark-grey: rgb(99, 99, 99);
+  --medium-grey: rgb(136, 136, 136);
+  --light-grey: rgb(190, 190, 190);
+  --add-line-height: 1.5;
+}
 
 header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: right;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
 }
 
 nav {
