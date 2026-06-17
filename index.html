@@ -31,12 +31,18 @@
   <main>
     <section class='profile-banner'>
       <div class='wrapper'>
-        <h1 class='name'>I'm Maria</h1>
-        <p>Full-Stack Developer</p>
-        <p class='brief-intro'>I care about clean code, thoughtful design, and building software that feels good to use
-        </p>
-        <!-- add alt to buttons for accessibility -->
-        <button class='dark-button'>View Projects</button>
+
+        <img src='./resources/images/profile-photo.png' alt='profile image'>
+
+        <div class='intro'>
+          <h1 class='name'>I'm Maria</h1>
+          <p>Full-Stack Developer</p>
+          <p>I care about clean code, thoughtful design, and building software that feels good to use
+          </p>
+
+          <!-- add alt to buttons for accessibility -->
+          <button class='dark-button'>View Projects</button>
+        </div>
       </div>
     </section>
 
@@ -44,25 +50,22 @@
       <div class='wrapper'>
         <h2>Tech Stack</h2>
         <!-- add alt to buttons for accessibility -->
-        <div class='img-container'><i class="fa-brands fa-html5"></i></div>
-        <div class='img-container'><i class="fa-brands fa-css3-alt"></i></div>
-        <div class='img-container'><i class="fa-brands fa-js"></i></div>
-        <div class='img-container'><i class="fa-solid fa-universal-access"></i></div>
-        <div class='img-container'><i class="fa-brands fa-git"></i></div>
-        <div class='img-container'><i class="fa-solid fa-terminal"></i></div>
-        <div class='img-container'><i class="fa-brands fa-github"></i></div>
-        <div class='img-container'><i class="fa-brands fa-figma"></i></div>
-        <div class='img-container'><i class="fa-brands fa-linkedin-in"></i></div>
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-solid fa-universal-access"></i>
+        <i class="fa-brands fa-git"></i>
+        <i class="fa-solid fa-terminal"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-figma"></i>
       </div>
     </section>
 
     <section class='featured-projects'>
       <div class='wrapper'>
         <h2>Featured Projects</h2>
+
         <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
           <h3 class='project-title'></h3>
           <p class='project-description'></p>
           <button>Live Demo</button>
@@ -75,9 +78,6 @@
         </div>
 
         <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
           <h3 class='project-title'></h3>
           <p class='project-description'></p>
           <button>Live Demo</button><button>Code Link</button>
@@ -89,9 +89,7 @@
         </div>
 
         <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
+          <img src='' alt=''>
           <h3 class='project-title'></h3>
           <p class='project-description'></p>
           <button>Live Demo</button><button>Code Link</button>
@@ -101,7 +99,6 @@
             <li></li>
           </ul>
         </div>
-
       </div>
     </section>
 
@@ -113,49 +110,24 @@
     </section>
   </main>
 
-    <section class='contact'>
-      <div class='wrapper'>
-        <h2>Get In Touch</h2>
-        <div class='container'>
-          <label for='name'>Name</label>
-          <input type='text' id='name'>
-          <label for='email'>Email</label>
-          <input type='text' id='email'>
-          <label for='message'>Message</label>
-          <input type='text' name='message' id='message'>
-          <input type='submit' value='Submit'>
-        </div>
+  <footer class='contact'>
+    <div class='wrapper'>
+      <h2>Get In Touch</h2>
+      <form action='post'>
+        <label for='name'>Name</label>
+        <input type='text' id='name'>
+        <label for='email'>Email</label>
+        <input type='text' id='email'>
+        <label for='message'>Message</label>
+        <input type='text' name='message' id='message'>
+        <input type='submit' value='Submit'>
+      </form>
 
-        <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
-        </div>
-
-        <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
-        </div>
-
-        <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
-        </div>
-
-        <div class='container'>
-          <div class='img-container'>
-            <img src='' alt=''>
-          </div>
-        </div>
+      <div class='container'>
+        <i class="fa-solid fa-at"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
       </div>
-    </section>
-
-  </main>
-
-  <footer>
-
   </footer>
 
 </body>
