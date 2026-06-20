@@ -27,10 +27,6 @@ nav li:not(:first-of-type) {
   margin-left: 1rem;
 }
 
-nav li {
-  list-style: none;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -39,18 +35,21 @@ a {
 section,
 .wrapper {
   display: grid;
-  justify-items: center;
 }
 
 section {
   border-top: 1px solid var(--medium-grey);
-  outline: solid red 2.5px;
 }
 
 .wrapper {
   text-align: center;
-  row-gap: 1rem;
-  padding: 1rem 0;
+  justify-items: center;
+  line-height: var(--add-line-height);
+  row-gap: var(--row-gap);
+}
+
+.profile-banner {
+  padding: 2rem 0;
 }
 
 img {
