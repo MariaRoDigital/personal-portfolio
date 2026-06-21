@@ -61,7 +61,6 @@ section {
 
 .wrapper {
   text-align: center;
-  justify-items: center;
   line-height: var(--add-line-height);
   row-gap: var(--row-gap);
 }
