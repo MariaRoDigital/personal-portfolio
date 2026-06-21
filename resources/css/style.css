@@ -23,8 +23,7 @@ i[class^='fa-'] {
 }
 
 header {
-  display: flex;
-  justify-content: right;
+  display: grid;
   align-items: center;
   position: sticky;
   top: 0;
@@ -35,6 +34,7 @@ header {
 
 nav {
   padding: .05rem .5rem;
+  justify-self: right;
 }
 
 nav ul {
