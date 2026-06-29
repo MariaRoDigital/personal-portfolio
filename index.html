@@ -50,65 +50,77 @@
     </section>
 
     <section class='tech-stack'>
-      <div class='wrapper'>
-        <h2>Tech Stack</h2>
-        <!-- add alt to buttons for accessibility -->
-        <div class='icons'>
-          <div class='icon-container'><i class="fa-brands fa-html5"></i></div>
+      <h2>Tech Stack</h2>
+      <!-- add alt to buttons for accessibility -->
+      <div class='icons'>
+        <div class='icon-container'><i class="fa-brands fa-html5"></i></div>
 
-          <div class='icon-container'><i class="fa-brands fa-css3-alt"></i></div>
-          <div class='icon-container'><i class="fa-brands fa-js"></i></div>
-          <div class='icon-container'><i class="fa-solid fa-universal-access"></i></div>
-          <div class='icon-container'><i class="fa-brands fa-git"></i></div>
-          <div class='icon-container'><i class="fa-solid fa-terminal"></i></div>
-          <div class='icon-container'><i class="fa-brands fa-github"></i></div>
-          <div class='icon-container'><i class="fa-brands fa-figma"></i></div>
-        </div>
+        <div class='icon-container'><i class="fa-brands fa-css3-alt"></i></div>
+        <div class='icon-container'><i class="fa-brands fa-js"></i></div>
+        <div class='icon-container'><i class="fa-solid fa-universal-access"></i></div>
+        <div class='icon-container'><i class="fa-brands fa-git"></i></div>
+        <div class='icon-container'><i class="fa-solid fa-terminal"></i></div>
+        <div class='icon-container'><i class="fa-brands fa-github"></i></div>
+        <div class='icon-container'><i class="fa-brands fa-figma"></i></div>
       </div>
     </section>
 
     <section class='featured-projects'>
-      <div class='wrapper'>
-        <h2>Featured Projects</h2>
+      <h2>Featured Projects</h2>
 
-        <div class='container'>
-          <h3 class='project-title'></h3>
+      <div class='content-wrapper'>
+        <div>
+          <img src='resources/images/featured-project-screenshots/mysterious-organism-code&output.jpg' alt=''>
+          <h3 class='project-title'>Mysterious Organism</h3>
           <p class='project-description'></p>
-          <div class='btn'>Code Link</div>
+          <div class='btn'>
+            <a href='https://github.com/MariaRoDigital/mysterious-organism'>Code Link</a>
+          </div>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              DNA Manipulation Methods
+            </li>
+            <li>
+              DNA Comparison Logic
+            </li>
+            <li>DNA Mutation Methods
+            </li>
+          </ul>
+        </div>
+        
+        <div>
+          <img src='resources/images/featured-project-screenshots/mixed-messages-code&output.jpg' alt=''>
+          <h3 class='project-title'>Mixed Messages</h3>
+          <p class='project-description'></p>
+          <div class='btn'>
+            <a href='https://github.com/MariaRoDigital/mixed_messages'>Code Link</a>
+          </div>
+          <ul>
+            <li>Dynamic Quote Selection</li>
+            <li>Reusable Function Design</li>
+            <li>Lightweight Data Handling</li>
           </ul>
         </div>
 
-        <div class='container'>
-          <h3 class='project-title'></h3>
+        <div>
+          <img src='resources/images/featured-project-screenshots/htm&css-cheatsheet.jpg' alt=''>
+          <h3 class='project-title'>HTML, CSS, and Javascript Cheatsheet</h3>
           <p class='project-description'></p>
-          <div class='btn'>Code Link</div>
+          <div class='btn'>
+            <a href='https://github.com/MariaRoDigital/HTML-and-CSS-Cheatsheet'>Code Link</a>
+          </div>
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>Concise Reference Material</li>
+            <li>Structured Easy-to-navigate Layout</li>
+            <li>Multi-language Coverage (HTML, CSS, Javascript)</li>
           </ul>
-        </div>
 
-        <div class='container'>
-          <img src='' alt=''>
-          <h3 class='project-title'></h3>
-          <p class='project-description'></p>
-          <div class='btn'>Code Link</div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
         </div>
       </div>
     </section>
 
     <section class='about-me'>
-      <div class='wrapper'>
+      <div content-wrapper>
         <h2>About Me</h2>
         <p class='short-bio'></p>
       </div>
@@ -116,8 +128,8 @@
   </main>
 
   <footer class='contact'>
-    <div class='wrapper'>
-      <h2>Get In Touch</h2>
+    <h2>Get In Touch</h2>
+    <div class='content-wrapper'>
       <form action='post'>
         <label for='name'>Name</label>
         <input type='text' id='name'>
@@ -127,12 +139,12 @@
         <input type='text' name='message' id='message'>
         <input type='submit' value='Submit'>
       </form>
-
-      <div class='container'>
+      <div>
         <div class='icon-container'><i class="fa-solid fa-at"></i></div>
         <div class='icon-container'><i class="fa-brands fa-github"></i></div>
         <div class='icon-container'><i class="fa-brands fa-linkedin-in"></i></div>
       </div>
+    </div>
   </footer>
 
 </body>
