@@ -78,17 +78,15 @@ section,
 }
 
 section {
-  border-top: 1.5px solid var(--medium-grey);
-}
-
-.wrapper {
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   text-align: center;
-  line-height: var(--add-line-height);
-  row-gap: var(--row-gap);
+  border-top: 1px solid var(--dark-grey);
+  padding: 3rem 0;
 }
 
-.profile-banner {
-  padding: 2rem 0;
+section,
+.featured-projects:not(.content-wrapper) {
+  gap: var(--general-gap);
 }
 
 .me {
