@@ -29,6 +29,7 @@
   border-radius: 2px;
   width: 100%;
   padding: .5rem 0;
+  text-align: center;
 }
 
 /* icon box styling */
@@ -73,7 +74,7 @@ a {
 
 main,
 section,
-.wrapper {
+.content-wrapper {
   display: grid;
 }
 
