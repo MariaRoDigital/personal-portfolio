@@ -100,21 +100,14 @@ section,
 }
 
 /* --- tech stack section --- */
-
-section:not(.profile-banner) {
-  padding: .8rem;
-}
-
 h2 {
   display: flex;
   align-items: center;
-  gap: 1rem;
 }
 
 h2::before,
 h2::after {
   content: "";
-  flex: 1;
   height: 1.5px;
   background-color: var(--light-grey);
 }
@@ -122,6 +115,5 @@ h2::after {
 .icons {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: .5rem;
+  gap: var(--general-gap);
 }
