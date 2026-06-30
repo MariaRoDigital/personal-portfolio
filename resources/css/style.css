@@ -1,9 +1,26 @@
 :root {
+  /* Step -2: 11.1111px → 12.8px */
+  --step--2: clamp(0.6944rem, 0.6772rem + 0.0768vw, 0.8rem);
+  /* Step -1: 13.3333px → 16px */
+  --step--1: clamp(0.8333rem, 0.8061rem + 0.1212vw, 1rem);
+  /* Step 0: 16px → 20px */
+  --step-0: clamp(1rem, 0.9591rem + 0.1818vw, 1.25rem);
+  /* Step 1: 19.2px → 25px */
+  --step-1: clamp(1.2rem, 1.1407rem + 0.2636vw, 1.5625rem);
+  /* Step 2: 23.04px → 31.25px */
+  --step-2: clamp(1.44rem, 1.356rem + 0.3732vw, 1.9531rem);
+  /* Step 3: 27.648px → 39.0625px */
+  --step-3: clamp(1.728rem, 1.6113rem + 0.5188vw, 2.4414rem);
+  /* Step 4: 33.1776px → 48.8281px */
+  --step-4: clamp(2.0736rem, 1.9135rem + 0.7114vw, 3.0518rem);
+  /* Step 5: 39.8131px → 61.0352px */
+  --step-5: clamp(2.4883rem, 2.2713rem + 0.9646vw, 3.8147rem);
+
   --dark-grey: rgb(99, 99, 99);
   --medium-grey: rgb(136, 136, 136);
   --light-grey: rgb(190, 190, 190);
   --add-line-height: 1.9;
-  --row-gap: 1.2rem;
+  --general-gap: 2rem;
 }
 
 
