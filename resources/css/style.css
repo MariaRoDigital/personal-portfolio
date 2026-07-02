@@ -16,9 +16,9 @@
   /* Step 5: 39.8131px → 61.0352px */
   --step-5: clamp(2.4883rem, 2.2713rem + 0.9646vw, 3.8147rem);
 
-  --dark-grey: rgb(99, 99, 99);
-  --medium-grey: rgb(136, 136, 136);
-  --light-grey: rgb(190, 190, 190);
+  --dark-grey: rgb(81, 81, 81);
+  --medium-grey: rgb(122, 122, 122);
+  --light-grey: rgb(179 179 179);
   --add-line-height: 1.9;
   --general-gap: 2rem;
 }
