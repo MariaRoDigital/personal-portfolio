@@ -137,3 +137,29 @@ h2::after {
   justify-content: center;
   gap: var(--general-gap);
 }
+
+/* --- featured projects section --- */
+/* *** fix offset for when you click the nav link for projects, about, and contact in ***  */
+
+.featured-projects .content {
+  gap: var(--inner-content-gap);
+}
+
+.project-description {
+  text-align: justify;
+  padding: .4rem;
+}
+
+.featured-projects a {
+  color: white;
+}
+
+.featured-projects ul {
+  list-style: circle inside;
+  margin: auto;
+  text-align: left;
+}
+
+.featured-projects .last-list ul {
+  text-align: center;
+}
