@@ -21,8 +21,21 @@
   --light-grey: rgb(179 179 179);
   --add-line-height: 1.9;
   --general-gap: 2rem;
+  --inner-content-gap: .8rem;
 }
 
+/* utility classes */
+.dark-grey {
+  background-color: var(--dark-grey);
+}
+
+.med-grey {
+  background-color: var(--medium-grey);
+}
+
+.light-grey {
+  background-color: var(--light-grey);
+}
 
 /* button default styling */
 .btn {
